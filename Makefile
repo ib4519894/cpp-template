@@ -11,5 +11,5 @@ save:
 
 new:
 	git remote rm origin
-	git remote add origin ${URL}
-	@echo ${URL} has been setup
+	git remote add origin ${url}
+	@echo ${url} has been setup
