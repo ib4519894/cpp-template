@@ -8,3 +8,8 @@ save:
 	git push --set-upstream origin master
 	clear
 	@echo "Save Complete"
+
+new:
+	git remote rm origin
+	git remote add origin ${URL}
+	@echo ${URL} has been setup
